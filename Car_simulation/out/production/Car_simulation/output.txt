@@ -1,0 +1,45 @@
+0 from Gate 1 arrived at time 0.0
+0 from Gate 1 parked. (Parking Status: 1 spots occupied)
+1 from Gate 1 arrived at time 1.0
+1 from Gate 1 parked. (Parking Status: 2 spots occupied)
+2 from Gate 1 arrived at time 2.0
+2 from Gate 1 parked. (Parking Status: 3 spots occupied)
+10 from Gate 3 arrived at time 2.0
+10 from Gate 3 parked. (Parking Status: 4 spots occupied)
+5 from Gate 2 arrived at time 3.0
+5 from Gate 2 parked. (Parking Status: 5 spots occupied)
+3 from Gate 1 arrived at time 3.0
+3 from Gate 1 parked. (Parking Status: 6 spots occupied)
+0 from Gate 1 left the parking spot. (Parking Status: 5 spots occupied)
+4 from Gate 1 arrived at time 4.0
+4 from Gate 1 parked. (Parking Status: 6 spots occupied)
+2 from Gate 1 left the parking spot. (Parking Status: 5 spots occupied)
+1 from Gate 1 left the parking spot. (Parking Status: 4 spots occupied)
+11 from Gate 3 arrived at time 5.0
+11 from Gate 3 parked. (Parking Status: 5 spots occupied)
+6 from Gate 2 arrived at time 6.0
+6 from Gate 2 parked. (Parking Status: 6 spots occupied)
+10 from Gate 3 left the parking spot. (Parking Status: 5 spots occupied)
+12 from Gate 3 arrived at time 7.0
+7 from Gate 2 arrived at time 7.0
+12 from Gate 3 parked. (Parking Status: 6 spots occupied)
+7 from Gate 2 parked. (Parking Status: 7 spots occupied)
+5 from Gate 2 left the parking spot. (Parking Status: 6 spots occupied)
+8 from Gate 2 arrived at time 8.0
+8 from Gate 2 parked. (Parking Status: 7 spots occupied)
+4 from Gate 1 left the parking spot. (Parking Status: 6 spots occupied)
+9 from Gate 2 arrived at time 9.0
+9 from Gate 2 parked. (Parking Status: 7 spots occupied)
+11 from Gate 3 left the parking spot. (Parking Status: 6 spots occupied)
+3 from Gate 1 left the parking spot. (Parking Status: 5 spots occupied)
+13 from Gate 3 arrived at time 10.0
+13 from Gate 3 parked. (Parking Status: 6 spots occupied)
+12 from Gate 3 left the parking spot. (Parking Status: 5 spots occupied)
+6 from Gate 2 left the parking spot. (Parking Status: 4 spots occupied)
+14 from Gate 3 arrived at time 11.0
+14 from Gate 3 parked. (Parking Status: 5 spots occupied)
+7 from Gate 2 left the parking spot. (Parking Status: 4 spots occupied)
+9 from Gate 2 left the parking spot. (Parking Status: 3 spots occupied)
+8 from Gate 2 left the parking spot. (Parking Status: 2 spots occupied)
+14 from Gate 3 left the parking spot. (Parking Status: 1 spots occupied)
+13 from Gate 3 left the parking spot. (Parking Status: 0 spots occupied)

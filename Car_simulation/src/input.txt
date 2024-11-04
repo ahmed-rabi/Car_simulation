@@ -1,0 +1,15 @@
+Gate 1, Car 0, Arrive 0, Parks 3
+Gate 1, Car 1, Arrive 1, Parks 4
+Gate 1, Car 2, Arrive 2, Parks 2
+Gate 1, Car 3, Arrive 3, Parks 5
+Gate 1, Car 4, Arrive 4, Parks 3
+Gate 2, Car 5, Arrive 3, Parks 4
+Gate 2, Car 6, Arrive 6, Parks 3
+Gate 2, Car 7, Arrive 7, Parks 2
+Gate 2, Car 8, Arrive 8, Parks 5
+Gate 2, Car 9, Arrive 9, Parks 3
+Gate 3, Car 10, Arrive 2, Parks 4
+Gate 3, Car 11, Arrive 5, Parks 3
+Gate 3, Car 12, Arrive 7, Parks 2
+Gate 3, Car 13, Arrive 10, Parks 5
+Gate 3, Car 14, Arrive 11, Parks 3
