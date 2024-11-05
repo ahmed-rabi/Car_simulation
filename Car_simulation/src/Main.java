@@ -7,8 +7,9 @@ public class Main {
     public static void main(String[] args) {
         Semaphore semaphore = new Semaphore(4);
         List<Car> cars = new ArrayList<>();
+        int car1 = 0, car2 = 0, car3 = 0;
         List<String> logMessages = Collections.synchronizedList(new ArrayList<>());
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Ahmed Rabie\\IdeaProjects\\Car_simulation\\src\\input.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Ahmed Rabie\\IdeaProjects\\Car_simulation\\src\\testcases\\testcase0.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(", ");
@@ -18,6 +19,15 @@ public class Main {
                 float parksTime = Float.parseFloat(parts[3].split(" ")[1]);
                 Car car = new Car(gateNumber, carName, arriveTime, parksTime, semaphore, logMessages);
                 cars.add(car);
+                if (gateNumber == 1) {
+                    car1++;
+                }
+                else if (gateNumber == 2) {
+                    car2++;
+                }
+                else{
+                    car3++;
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -35,11 +45,20 @@ public class Main {
                 Thread.currentThread().interrupt();
             }
         }
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\Ahmed Rabie\\IdeaProjects\\Car_simulation\\src\\output.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\Ahmed Rabie\\IdeaProjects\\Car_simulation\\src\\testcases\\testcaseoutput0.txt"))) {
             for (String message : logMessages) {
                 writer.write(message);
                 writer.newLine();
             }
+            writer.write("Total Cars Served: " + cars.size());
+            writer.newLine();
+            writer.write("Details:");
+            writer.newLine();
+            writer.write("- Gate 1 served "+ car1 +" cars.");
+            writer.newLine();
+            writer.write("- Gate 2 served "+ car2 +" cars.");
+            writer.newLine();
+            writer.write("- Gate 3 served "+ car3 +" cars.");
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -20,9 +20,9 @@ class Car implements Runnable {
         try {
             Thread.sleep((long) (this.arriveTime * 1000));
             log("Car " + name + " from Gate " + gateNumber + " arrived at time " + arriveTime);
-            sem.P(logMessages, name, gateNumber);
+            sem.P(logMessages, name, gateNumber, arriveTime);
             Thread.sleep((long) (this.departureTime * 1000));
-            sem.V(logMessages, name, gateNumber);
+            sem.V(logMessages, name, gateNumber, departureTime);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }

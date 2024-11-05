@@ -1,0 +1,61 @@
+Car 0 from Gate 1 arrived at time 0.0
+Car 0 from Gate 1 parked. (Parking Status: 1 spots occupied)
+Car 1 from Gate 1 arrived at time 1.0
+Car 1 from Gate 1 parked. (Parking Status: 2 spots occupied)
+Car 2 from Gate 1 arrived at time 2.0
+Car 2 from Gate 1 parked. (Parking Status: 3 spots occupied)
+Car 10 from Gate 3 arrived at time 2.0
+Car 10 from Gate 3 parked. (Parking Status: 4 spots occupied)
+Car 5 from Gate 2 arrived at time 3.0
+Car 3 from Gate 1 arrived at time 3.0
+Car 5 from Gate 2 is waiting for a spot.
+Car 3 from Gate 1 is waiting for a spot.
+Car 0 from Gate 1 left the parking spot. (Parking Status: 3 spots occupied)
+Car 5 from Gate 2 parked. (Parking Status: 4 spots occupied)
+Car 2 from Gate 1 left the parking spot. (Parking Status: 3 spots occupied)
+Car 3 from Gate 1 parked. (Parking Status: 4 spots occupied)
+Car 4 from Gate 1 arrived at time 4.0
+Car 4 from Gate 1 is waiting for a spot.
+Car 11 from Gate 3 arrived at time 5.0
+Car 11 from Gate 3 is waiting for a spot.
+Car 1 from Gate 1 left the parking spot. (Parking Status: 3 spots occupied)
+Car 4 from Gate 1 parked. (Parking Status: 4 spots occupied)
+Car 6 from Gate 2 arrived at time 6.0
+Car 6 from Gate 2 is waiting for a spot.
+Car 10 from Gate 3 left the parking spot. (Parking Status: 3 spots occupied)
+Car 11 from Gate 3 parked. (Parking Status: 4 spots occupied)
+Car 7 from Gate 2 arrived at time 7.0
+Car 7 from Gate 2 is waiting for a spot.
+Car 12 from Gate 3 arrived at time 7.0
+Car 12 from Gate 3 is waiting for a spot.
+Car 5 from Gate 2 left the parking spot. (Parking Status: 3 spots occupied)
+Car 6 from Gate 2 parked. (Parking Status: 4 spots occupied)
+Car 8 from Gate 2 arrived at time 8.0
+Car 8 from Gate 2 is waiting for a spot.
+Car 4 from Gate 1 left the parking spot. (Parking Status: 3 spots occupied)
+Car 7 from Gate 2 parked. (Parking Status: 4 spots occupied)
+Car 9 from Gate 2 arrived at time 9.0
+Car 9 from Gate 2 is waiting for a spot.
+Car 3 from Gate 1 left the parking spot. (Parking Status: 3 spots occupied)
+Car 12 from Gate 3 parked. (Parking Status: 4 spots occupied)
+Car 11 from Gate 3 left the parking spot. (Parking Status: 3 spots occupied)
+Car 8 from Gate 2 parked. (Parking Status: 4 spots occupied)
+Car 13 from Gate 3 arrived at time 10.0
+Car 13 from Gate 3 is waiting for a spot.
+Car 7 from Gate 2 left the parking spot. (Parking Status: 3 spots occupied)
+Car 9 from Gate 2 parked. (Parking Status: 4 spots occupied)
+Car 6 from Gate 2 left the parking spot. (Parking Status: 3 spots occupied)
+Car 13 from Gate 3 parked. (Parking Status: 4 spots occupied)
+Car 14 from Gate 3 arrived at time 11.0
+Car 14 from Gate 3 is waiting for a spot.
+Car 12 from Gate 3 left the parking spot. (Parking Status: 3 spots occupied)
+Car 14 from Gate 3 parked. (Parking Status: 4 spots occupied)
+Car 9 from Gate 2 left the parking spot. (Parking Status: 3 spots occupied)
+Car 14 from Gate 3 left the parking spot. (Parking Status: 2 spots occupied)
+Car 8 from Gate 2 left the parking spot. (Parking Status: 1 spots occupied)
+Car 13 from Gate 3 left the parking spot. (Parking Status: 0 spots occupied)
+Total Cars Served: 15
+Details:
+- Gate 1 served 5 cars.
+- Gate 2 served 5 cars.
+- Gate 3 served 5 cars.
