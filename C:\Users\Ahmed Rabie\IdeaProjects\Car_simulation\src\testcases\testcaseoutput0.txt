@@ -1,0 +1,5 @@
+Total Cars Served: 0
+Details:
+- Gate 1 served 0 cars.
+- Gate 2 served 0 cars.
+- Gate 3 served 0 cars.

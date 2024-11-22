@@ -19,7 +19,8 @@ class Semaphore {
             }
         }
         long waitEndTime = System.currentTimeMillis();
-        float waitTime = (waitEndTime - waitStartTime) / 1000.0f;
+        long waitTime = (waitEndTime - waitStartTime) / 1000;
+
         availableSpots--;
         if (waitTime > 0) {
             logMessages.add("Car " + name + " from Gate " + gateNumber + " parked after waiting for " + waitTime +

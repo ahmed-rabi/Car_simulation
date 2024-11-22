@@ -9,7 +9,7 @@ public class Main {
         List<Car> cars = new ArrayList<>();
         int car1 = 0, car2 = 0, car3 = 0;
         List<String> logMessages = Collections.synchronizedList(new ArrayList<>());
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Ahmed Rabie\\IdeaProjects\\Car_simulation\\src\\testcases\\testcase0.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("/Users/bdallhsydbdallh/IdeaProjects/Car_simulation/out/production/Car_simulation/input.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(", ");
@@ -45,7 +45,7 @@ public class Main {
                 Thread.currentThread().interrupt();
             }
         }
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\Ahmed Rabie\\IdeaProjects\\Car_simulation\\src\\testcases\\testcaseoutput0.txt"))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter("/Users/bdallhsydbdallh/IdeaProjects/Car_simulation/out/production/Car_simulation/output.txt"))) {
             for (String message : logMessages) {
                 writer.write(message);
                 writer.newLine();
